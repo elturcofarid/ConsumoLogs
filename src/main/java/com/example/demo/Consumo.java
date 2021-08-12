@@ -18,6 +18,8 @@ public class Consumo {
 		
 		Logger log = LoggerFactory.getLogger(Consumo.class);
 		log.info("fido este es nuevo");
+		log.debug("debud");
+		log.error("Error");
 		if (true)
 		throw new RuntimeException("La edad debe ser positiva");
 		return "si hace algo  Otra instancia";
